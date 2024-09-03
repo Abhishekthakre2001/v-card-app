@@ -50,7 +50,7 @@ export default function Card() {
                         <div className="contact-info">
                             <a href="tel:9689941705" style={{ textDecoration: "none" }}>
                                 <div className="mycard">
-                                    <i className="fas fa-phone" style={{ marginTop: "30px", padding: "0px 20px" }} />
+                                    <i className="fas fa-phone" style={{ marginTop: "30px", padding: "0px 20px", fontSize:"16px" }} />
                                     <div className="mycard-data">
                                         <p style={{ color: "black" }}> 9689041705</p>
                                         <p>Mobile</p>
@@ -63,7 +63,7 @@ export default function Card() {
                                 style={{ textDecoration: "none" }}
                             >
                                 <div className="mycard">
-                                    <i className="fas fa-envelope" style={{ marginTop: "30px", padding: "0px 20px" }} />
+                                    <i className="fas fa-envelope" style={{ marginTop: "30px", padding: "0px 20px", fontSize:"16px" }} />
                                     <div className="mycard-data">
                                         <p style={{ color: "black" }}> abhishekthakre060@gmail.com</p>
                                         <p>E-mail</p>
@@ -72,7 +72,7 @@ export default function Card() {
                             </a>
                             <hr />
                             <div className="mycard">
-                                <i className="fas fa-briefcase" style={{ marginTop: "30px", padding: "0px 20px" }} />
+                                <i className="fas fa-briefcase" style={{ marginTop: "30px", padding: "0px 20px", fontSize:"16px" }} />
                                 <div className="mycard-data">
                                     <p style={{ color: "black" }}>Sky Vision IT Solutions</p>
                                     <p>Web Developer</p>
@@ -86,7 +86,7 @@ export default function Card() {
                                 rel="noopener noreferrer"
                             >
                                 <div className="mycard">
-                                    <i className="fas fa-globe" style={{ marginTop: "30px", padding: "0px 20px" }} />
+                                    <i className="fas fa-globe" style={{ marginTop: "30px", padding: "0px 20px", fontSize:"16px" }} />
                                     <div className="mycard-data">
                                         <p style={{ color: "black" }}>https://abhishekthakre.netlify.app</p>
                                         <p>Web Site</p>
