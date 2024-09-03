@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Profile from './myprofile.jpeg'; // Your profile image
 import LoaderImage from './logo.png'; // Replace with your loader image
-import Skeleton from 'react-loading-skeleton'
-import 'react-loading-skeleton/dist/skeleton.css'
 
 export default function Card() {
     const [loading, setLoading] = useState(true);
